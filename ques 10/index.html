@@ -1,25 +1,27 @@
-
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            div {
-                width: 200px;
-                height: 200px;
-                background-color: red;
-                margin: 5px;
-                font-size: 24px;
-                text-align: center;
-                position: relative;
-            }
-        </style>
-    </head>
-    <body>
-        <div  orientation="horizontal">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-        </div>
-    </body>
+   <head>
+       <style>
+           #main {
+         display: flex;
+         flex-direction: column-reverse;
+         
+       }
+
+       #main div {
+         width: 200px;
+         height: 200px;
+         margin:5px;
+         padding:10px;
+         background-color: red;
+       }
+       </style>
+   </head>
+   <body>
+       <div id="main">
+           <div>1</div>
+           <div>2</div>
+           <div>3</div>
+       </div>
+   </body>
 </html>

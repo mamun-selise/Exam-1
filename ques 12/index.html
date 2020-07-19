@@ -5,7 +5,12 @@
 </head>
 <body>
 	<script type="text/javascript">
-		var text = "this is, a new text";
+		String.prototype.removeSpace = function () {
+            return this.replace(/ /g, '_');
+        }
+        var text = "this is, a new text";
+        var changedText = text.removeSpace();
+        console.log(changedText);
 	</script>
 </body>
 </html>

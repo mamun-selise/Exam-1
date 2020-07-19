@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  		$("button").click(function(){
+    		$("#div1").addClass("addclass");
+ 	 		});
+		});
+	</script>
+	<style>
+		.addclass {
+  			font-weight: bold;
+ 	 		font-size: xx-large;
+ 	 		color: red;
+ 	 		font-family: times new romans;
+		}
+		</style>
+</head>
+<body>
+
+<div id="div1">First</div>
+<div id="div2">Second</div>
+<br>
+
+<button>Add class</button>
+
+</body>
+</html>
